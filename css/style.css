@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+    
+}
+.container-header {
+   
+    width: 87%;
+    justify-content: space-between ;
+    margin: 4px 25px;
+    padding: px;
+    
+}
+.container-header h1{
+    font-size: 1.5rem;
+
+}
+.container-header i{
+    font-size: 1.5rem;
+
+}
+.header-container {
+    position:sticky ;
+    background-color: white;
+    top: 0;
+    width: 100%;
+     z-index: 9999;
+  
+  }
