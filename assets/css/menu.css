@@ -2,23 +2,26 @@
 
 .container-menu{
    
-    border-right: 15px solid#efefef;
-    background-color: #efefef;
+    border-right: 15px solid#e5e3e3;
+    background-color: white;
      height: 100vh;
    
  }
 
  .profil{
      display: flex;
-     background-color: white;
+     background-color: #111;
  }
  .profil-men .profil-image-men{
+    position: relative;
     padding: 20px;
     margin-top: 20px;
     background-color: aliceblue;
-  
+  transform: translate(50%,0%);
     border-radius: 50px;
-    right: 50%;
+    width: 50px;
+    height: 50px;
+   
    
   
    
@@ -30,13 +33,15 @@
  }
  
  .profil-name-men{
-     font-size: 1.2rem;
+     font-size: 1.4rem;
      font-weight: bold;
- }
- .profil-prof-men{
-     font-weight: bold;
-     color: var(--main-color-gray);
- }
+    }
+ .profil-prof-men {
+  color: #ccc;
+    margin-bottom: 10px;
+    font-weight: bold;
+ 
+}
  .aside ul{
      width: 100%;
  }
@@ -66,6 +71,9 @@
  .social-network{
      display: flex;
      flex: 1;
+     padding-bottom: 245px;
+
+     background-color: #efefef;
  }
  .social-network i{
      
